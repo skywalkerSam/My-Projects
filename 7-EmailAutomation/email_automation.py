@@ -1,11 +1,11 @@
 """
 Developer: Sam Skywalker
 Purpose: Learning
-Date: 
+Date: 12022.04.30:13:30
 
 """
 
-import email
+
 import smtplib
 from email.message import EmailMessage
 from string import Template
