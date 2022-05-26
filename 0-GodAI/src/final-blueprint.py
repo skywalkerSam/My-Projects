@@ -3,10 +3,9 @@
 # voice engine; sapi5, zira
 
 """
-Developer: Mr. Skywalker
+Developer: Sam Skywalker
 Purpose: General AI based assistant
 Stardate: 12021.234.07:15:00
-
 """
 
 import pyttsx3
@@ -21,9 +20,9 @@ print("""
                      ############   God AI   ############
                         ##############################
 
-                *    Copyright Of Captain Murlidhar Singh & ASAI Inc, 2021                 *
+                *    Copyright Of Sam Skywalker & ASAI Inc, 2021                 *
 
-                *    Suggestion, Feedback & Contact E-mail; captainms.asaiinc@gmail.com    *
+                *    Suggestion, Feedback & Contact E-mail; samskywalker.asaiinc@gmail.com    *
 
 """)
 
@@ -118,14 +117,14 @@ if __name__ == "__main__":
                      ############   God AI   ############
                         ##############################
 
-                *    Copyright Of Captain Murlidhar Singh & ASAI Inc, 2021                 *
+                *    Copyright Of Sam Skywalker & ASAI Inc, 2021                 *
 
-                *    Suggestion, Feedback & Contact E-mail; captainms.asaiinc@gmail.com    *
+                *    Suggestion, Feedback & Contact E-mail; samskywalker.asaiinc@gmail.com    *
 
 
                 ######   ASAI Inc.   ######
 
-                    *   Founder & CEO; Captain Murlidhar Singh (Captain Skywalker)  *
+                    *   Founder & CEO; Sam Skywalker (Starboy)  *
 
                     *   Founded On; Day 5th Of November 2020   *
 
@@ -138,7 +137,7 @@ if __name__ == "__main__":
 
                     *   Developed Under; ASAI Inc.   *
 
-                    *   Developed By; Captain Murlidhar Singh  (Known As; Captain Skywalker)   *
+                    *   Developed By; Sam Skywalker  (Starboy)   *
 
                     *   Programming Language Used; Python3 & Windows Batchfile   *
  
@@ -608,7 +607,7 @@ if __name__ == "__main__":
 
                     *   Developed Under; ASAI Inc.    *
 
-                    *   Developed By; Captain Murlidhar Singh   *
+                    *   Developed By; Sam Skywalker   *
             
             """)
             speak(" Welcome to THE BASIC CALCULATOR ! ")
@@ -692,7 +691,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             print("Enter The Number [a]; ")
@@ -725,7 +724,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             print("Enter The Number [a]; ")
@@ -751,7 +750,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             print("Enter The Number [a]; ")
@@ -777,7 +776,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             player_name = input('Enter Your Name; ')
@@ -851,7 +850,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             player_name = input('Enter Your Name; ')
@@ -925,7 +924,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             speak("enter text which you want to genrate the audio of")
