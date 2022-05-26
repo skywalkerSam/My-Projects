@@ -14,8 +14,8 @@ from pathlib import Path
 
 def simple_email():
     email = EmailMessage()
-    email["from"] = "Sam Skywalker"
-    email["to"] = "samskywalker001@gmail.com"
+    email["from"] = "Your_Name"
+    email["to"] = "example123@xyz.com"
     email['subject'] = "First Automated Email..."
 
     email.set_content("This is the first automated email ever created by myself ;)")
@@ -23,7 +23,7 @@ def simple_email():
     with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
         smtp.ehlo()
         smtp.starttls()
-        smtp.login('samskywalker.asaiinc@gmail.com', 'passwordORkey')
+        smtp.login('Your_Email', 'Your_Password')
         smtp.send_message(email)
         print('\n\t All Good, Email Sent :) \n')
 
@@ -33,17 +33,18 @@ def simple_email():
 
 def second_email():
     email = EmailMessage()
-    email['from'] = 'Sam Skywalker'
-    email['to'] = 'samskywalker001@gmail.com'
+    email['from'] = 'Your_Name'
+    email['to'] = 'example123@xyz.com'
     email['subject'] = 'Second Automated Email...'
 
-    email_content = Template(Path('content.html').read_text())
+    # Content Specfic parameters
+    email_content = Template(Path('content_one.html').read_text())
     email.set_content(email_content.substitute(name='Starboy', ai_system='Cortana AI'), 'html')
 
     with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
         smtp.ehlo()
         smtp.starttls()
-        smtp.login('samskywalker.asaiinc@gmail.com', 'passwordORkey')
+        smtp.login('Your_Email', 'Your_Password')
         smtp.send_message(email)
         print('\n\t Successful, Email Sent :) \n')
 
