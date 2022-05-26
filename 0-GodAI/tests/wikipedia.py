@@ -4,14 +4,14 @@ print("""
                      ############   God AI   ############
                         ##############################
 
-                *    Copyright Of Captain Murlidhar Singh & ASAI Inc, 2021                 *
+                *    Copyright Of Sam Skywalker & ASAI Inc, 2021                 *
 
-                *    Suggestion, Feedback & Contact E-mail; captainms.asaiinc@gmail.com    *
+                *    Suggestion, Feedback & Contact E-mail; samskywalker.asaiinc@gmail.com    *
 
 """)
 
 #username
-username = "Captain Skywalker"
+username = "Skywalker"
 
 
 #modules_required
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
                         *   Developed Under; ASAI Inc.    *
 
-                        *   Developed By; Captain Murlidhar Singh   *
+                        *   Developed By; Sam Skywalker   *
             
             """)
             print('Searching Wikipedia, Please Wait...\n')
