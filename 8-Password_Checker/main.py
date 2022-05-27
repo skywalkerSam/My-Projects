@@ -43,7 +43,8 @@ def main(args):
     for password in args:
         count = passwordsec_check(password)
         if count:
-            print(f'\n Your password was leaked {count} times. You should consider changing it... \n')
+            print(
+                f'\n Your password was leaked {count} times. You should consider changing it... \n')
         else:
             print("\n All good! No leaks found for your password :) \n")
     return "\t\n Done...\n"
@@ -51,9 +52,3 @@ def main(args):
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
-
-
-
-
-
-
