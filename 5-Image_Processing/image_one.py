@@ -20,7 +20,7 @@ print(img_one.mode)
 blured_image = img_one.filter(ImageFilter.BLUR)
 # blured_image.save("./src_images/crush_blur_one.png")
 
-                                
+
 smooth_image = img_one.filter(ImageFilter.SMOOTH)
 # smooth_image.save("./src_images/crushone_smooth.png")
 
@@ -52,5 +52,3 @@ box = (250, 250, 900, 900)
 croped_img = img_one.crop(box)
 croped_img.show()
 # croped_img.save("./src_images/crushone_small_img.png")
-
-

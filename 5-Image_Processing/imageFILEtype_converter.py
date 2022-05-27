@@ -29,8 +29,6 @@ for filename in os.listdir(image_folder):
     # image.show()
 
 
-
-
 """
 >_ Command Used:   python .\imageFILEtype_converter.py ./pokemons ./pokemons_new
 
