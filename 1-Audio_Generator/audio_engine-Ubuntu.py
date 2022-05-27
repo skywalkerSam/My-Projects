@@ -1,6 +1,7 @@
 
 # Workstation; Ubuntu 20.04
-    #-> Also implemented in God-AI which also runs on windows10
+import pyttsx3
+# -> Also implemented in God-AI which also runs on windows10
 
 '''
 # Dependencies;
@@ -19,8 +20,6 @@ print("""
 
 """)
 
-
-import pyttsx3
 
 # voice_engine
 voice_engine = pyttsx3.init('espeak')   # object creation, voice_engine
@@ -44,11 +43,11 @@ voice_engine_volume = voice_engine.getProperty('voice')
 
 textfile = str(input('Enter Text; '))
 
-filedestination = input('Enter File Destination,  (Ex:- /home/username/folder/filename.mp3) ; \n')
+filedestination = input(
+    'Enter File Destination,  (Ex:- /home/username/folder/filename.mp3) ; \n')
 
 
 # Saving voice to a file
 # voice_engine.say(textfile)
-voice_engine.save_to_file(textfile, filedestination )
+voice_engine.save_to_file(textfile, filedestination)
 voice_engine.runAndWait()
-

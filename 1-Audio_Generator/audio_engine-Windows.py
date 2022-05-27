@@ -30,7 +30,8 @@ while(True):
             speak("Please enter some text")
             text_file = str(input('Enter Text: '))
             speak("Now, enter the filename with its type and its destination")
-            audio_file = input("\n Enter Filename With Its Type (.mp3) & It's Destination (D:/Music/hello.mp3): \n\n\t")
+            audio_file = input(
+                "\n Enter Filename With Its Type (.mp3) & It's Destination (D:/Music/hello.mp3): \n\n\t")
             audio_engine.save_to_file(text_file, audio_file)
             audio_engine.runAndWait()
 
@@ -45,6 +46,3 @@ while(True):
     except:
         print("Something Went Wrong, Try Again!")
         continue
-
-
-
