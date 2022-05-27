@@ -21,12 +21,3 @@ with Image.open("./src_images/Strawberry_Attack.jpg") as img:
     resized_img.thumbnail((600, 600))
     resized_img.show()
     resized_img.save("./src_images/Strawberry_thumbnail.png")
-
-
-
-
-
-
-
-
-
